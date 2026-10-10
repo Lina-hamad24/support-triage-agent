@@ -1,9 +1,10 @@
 # Support Triage Agent
 
-**AI-driven support automation through knowledge retrieval, workflow orchestration, and intelligent escalation.**
+**AI-powered support automation through RAG, intelligent routing, and tool integration.**
 
-An AI engineering project that combines Retrieval-Augmented Generation (RAG), workflow orchestration, and tool integration to automate customer support triage. It retrieves relevant knowledge, routes requests according to their needs, and turns issues requiring human intervention into persistent support tickets.
-Built with LangGraph, FastAPI, FAISS, Ollama, MCP, SQLite, and Docker.
+A modular AI system that retrieves relevant knowledge, routes client requests to the appropriate workflow, and automates ticket creation for issues requiring escalation.
+
+**Tech Stack:** Python · LangGraph · LangChain · FAISS · Ollama · FastAPI · MCP · SQLite · Docker
 ## Architecture
 
 ```mermaid
