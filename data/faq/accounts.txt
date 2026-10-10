@@ -1,0 +1,6 @@
+Account Policy
+
+Customers can reset their password using the "Forgot Password" option.
+Account email addresses can be changed from account settings.
+For security reasons, support may request identity verification.
+Locked accounts should be escalated to the support team.

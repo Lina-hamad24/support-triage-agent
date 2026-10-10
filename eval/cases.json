@@ -1,0 +1,26 @@
+[
+  {
+    "question": "How long does a refund take?",
+    "expected_decision": "answer"
+  },
+  {
+    "question": "What is the shipping time?",
+    "expected_decision": "answer"
+  },
+  {
+    "question": "My order is late",
+    "expected_decision": "clarify"
+  },
+  {
+    "question": "I forgot my order number",
+    "expected_decision": "clarify"
+  },
+  {
+    "question": "My account is locked",
+    "expected_decision": "escalate"
+  },
+  {
+    "question": "I cannot access my locked account",
+    "expected_decision": "escalate"
+  }
+]

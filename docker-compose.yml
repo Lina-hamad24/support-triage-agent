@@ -1,0 +1,12 @@
+services:
+  support-triage-agent:
+    build: .
+    container_name: support-triage-agent
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./tickets.db:/app/tickets.db
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    command: uvicorn app.api:app --host 0.0.0.0 --port 8000
