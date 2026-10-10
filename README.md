@@ -1,9 +1,9 @@
 # Support Triage Agent
 
-**An AI agent that knows when to answer, when to ask, and when to act.**
+**AI-driven support automation through knowledge retrieval, workflow orchestration, and intelligent escalation.**
 
-A customer support system combining retrieval, workflow orchestration, and tool execution to turn customer questions into meaningful actions.
-
+An AI engineering project that combines Retrieval-Augmented Generation (RAG), workflow orchestration, and tool integration to automate customer support triage. It retrieves relevant knowledge, routes requests according to their needs, and turns issues requiring human intervention into persistent support tickets.
+Built with LangGraph, FastAPI, FAISS, Ollama, MCP, SQLite, and Docker.
 ## Architecture
 
 ```mermaid
